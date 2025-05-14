@@ -13,6 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
       
 class demo {
 	 static WebDriver driver;
+	 
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {

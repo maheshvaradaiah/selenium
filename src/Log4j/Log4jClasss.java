@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeTest;
 public class Log4jClasss {
 	WebDriver driver;
 	@Test
-	public void log4jdemo() {
+	public void log4jdemo() throws InterruptedException {
 	Logger log= Logger.getLogger("Google Search");
 	PropertyConfigurator.configure("Mahesh.properties");
 	driver = new ChromeDriver();
@@ -19,6 +19,7 @@ public class Log4jClasss {
 	driver.manage().window().maximize();
 	log.info("Browser window maximize");
 	driver.get("https://www.techlearn.in");
+	Thread.sleep(5000);
 	log.info("Navigate to the techlearn website");
 	}
   @BeforeTest
