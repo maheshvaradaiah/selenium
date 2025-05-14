@@ -8,8 +8,8 @@ import org.testng.annotations.BeforeTest;
 public class ABCXYZ {
 	WebDriver driver;
   @Test
-  public void techlearnlogin() {
-	  driver.get("https://www.techlearn.in/admin");
+  public void techlearnhomepage() {
+	  driver.get("https://www.techlearn.in/");
   }
   @BeforeTest
   public void beforeTest() {
