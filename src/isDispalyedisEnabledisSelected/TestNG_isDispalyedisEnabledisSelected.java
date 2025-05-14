@@ -11,7 +11,7 @@ public class TestNG_isDispalyedisEnabledisSelected {
 	WebDriver driver;
   @Test
   public void isdisplayedmethod() throws InterruptedException {
-	  driver.get("https://www.techlearn.in/wp-admin");
+	  driver.get("https://www.techlearn.in/wp-login.php");
 		Thread.sleep(2000);
 		boolean lyp = driver.findElement(By.xpath("//a[@class='wp-login-lost-password']")).isDisplayed();
 		
