@@ -18,8 +18,8 @@ public class Log4jClasss {
 	log.info("Chrome Browser Lanch");
 	driver.manage().window().maximize();
 	log.info("Browser window maximize");
-	driver.get("https://www.google.com");
-	log.info("Navigate to the Google URL");
+	driver.get("https://www.techlearn.in");
+	log.info("Navigate to the techlearn website");
 	}
   @BeforeTest
   public void beforeTest() {
