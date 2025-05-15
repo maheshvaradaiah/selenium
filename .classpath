@@ -83,5 +83,6 @@
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="D:/Lib/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="D:/Lib/commons-io-2.19.0.jar"/>
+	<classpathentry kind="lib" path="D:/Lib/ashot.java.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

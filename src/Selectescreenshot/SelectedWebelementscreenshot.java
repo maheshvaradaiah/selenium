@@ -24,7 +24,8 @@ public class SelectedWebelementscreenshot {
 
 	  File f = jobs.getScreenshotAs(OutputType.FILE);
 	  FileUtils.copyFile(f,new File("D:\\Mahesh\\screenshot\\J.png"));
-	   
+	  
+
   }
   @BeforeTest
   public void beforeTest() {
@@ -32,9 +33,5 @@ public class SelectedWebelementscreenshot {
 	  driver.manage().window().maximize();
   }
 
-  @AfterTest
-  public void afterTest() {
-	  driver.quit();
-  }
 
 }
