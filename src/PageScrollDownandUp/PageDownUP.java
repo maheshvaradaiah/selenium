@@ -13,8 +13,8 @@ public class PageDownUP{
   public void scrollDownan() throws InterruptedException {driver.get("https://www.selenium.dev");
 	driver.findElement(By.xpath("//*[@id=\"main_navbar\"]/ul/li[2]/a/span")).click();
 	JavascriptExecutor jse = (JavascriptExecutor) driver;
-	jse.executeScript("scroll(0,3500)");
-	Thread.sleep(2000);
+	jse.executeScript("scroll(0,3550)");
+	Thread.sleep(30000);
 	//driver.findElement(By.xpath("//a[normalize-space()='releases']")).click();
 
   }
