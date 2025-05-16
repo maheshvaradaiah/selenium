@@ -24,7 +24,7 @@ public class FullpageScreenshot{
 	  driver.get("https://www.techlearn.in/");
 	  Thread.sleep(3000);
 	  Screenshot s = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(driver);
-	  ImageIO.write(s.getImage(), "PNG", new File("D:\\AGS\\Screenshots\\FullpageScreenshot1.png"));
+	  ImageIO.write(s.getImage(), "PNG", new File("D:\\New folder\\FullpageScreenshot1.png"));
   }
   @BeforeTest
   public void beforeTest() {
