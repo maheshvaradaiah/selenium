@@ -14,10 +14,6 @@ public class Log4jClasss {
 	public void log4jdemo() throws InterruptedException {
 	Logger log= Logger.getLogger("Google Search");
 	PropertyConfigurator.configure("Mahesh.properties");
-	driver = new ChromeDriver();
-	log.info("Chrome Browser Lanch");
-	driver.manage().window().maximize();
-	log.info("Browser window maximize");
 	driver.get("https://www.techlearn.in/admin");
 	Thread.sleep(5000);
 	log.info("Navigate to the techlearn website");

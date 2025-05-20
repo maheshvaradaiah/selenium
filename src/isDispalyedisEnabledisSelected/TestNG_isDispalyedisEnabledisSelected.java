@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeTest;
 
 public class TestNG_isDispalyedisEnabledisSelected {
@@ -66,7 +67,8 @@ public class TestNG_isDispalyedisEnabledisSelected {
 
   @BeforeTest
   public void beforeTest() {
-	  driver = new ChromeDriver();
+	 // driver = new ChromeDriver();
+	    driver = new FirefoxDriver();
 	  driver.manage().window().maximize();
   }
 
